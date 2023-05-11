@@ -83,8 +83,6 @@ function rolaScroll() {
   w.scrollTop = w.scrollHeight
 }
 
-setInterval(rolaScroll, 1000)
-
 // ferramentas de edição
 
 function negrito() {
