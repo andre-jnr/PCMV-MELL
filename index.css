@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+#principal{
+    max-width: 350px;
+    height: 650px;
+    background-color: #000080e6;
+    margin: auto;
+}
+
+#pesquisa{
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+#contrato{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 150px;
+    height: 180px;
+
+}
+
+#orcamento{
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+
+}
+
+#fatura{
+    display: inline-block;
+    padding-left: 40px;
+    width: 150px;
+    height: 180px;
+}
+
+#novo-documento{
+    display: inline-block;
+    width: 150px;
+    height: 180px;
+}
+
+#p-orcamento{
+    margin-left: 20px;
+    
+}
+
+#p-fatura{
+    margin-left: 40px;
+}
+
+p{
+    color: white;
+}
+
+.imagem{
+    padding-top: 10px;
+    width: 120px;
+    height: 150px;
+}
+
+
+.img-menu{
+    margin-top: 60px;
+    padding-left: 29px;
+    height: 50px;
+    width: 50px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
