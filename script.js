@@ -51,7 +51,7 @@ function iniciacao() {
       .map(result => result.transcript)
       .join('')
 
-    p.textContent = transcript + ', '
+    p.textContent = transcript + ' '
     if (e.results[0].isFinal) {
       p = document.createElement('span')
       fala.appendChild(p)
@@ -66,10 +66,6 @@ function checarGravacao() {
     gravando = false
     recognition.stop()
     document.getElementById('btn_speech').innerHTML = 'Transcrever áudio'
-  } else if (recognition) {
-    gravando = true
-    recognition.start()
-    document.getElementById('btn_speech').innerHTML = 'Interromper'
   } else {
     console.log('iniciando...')
     gravando = true
