@@ -18,7 +18,12 @@
       <input type="password" placeholder="Senha" name="senha" id="senha" />
       <img id="olho" onclick="abrir()" src="imagem/closed.png" alt="" />
       <a id="esqueci-senha" href="">Esqueceu a senha?</a>
-      <a id="botao" href="">Entrar</a>
+      <input
+        id="entrar"
+        type="submit"
+        onclick="logar(); return false"
+        value="ENTRAR"
+      />
       <p id="cadastro">
         Não tem uma conta ?
         <a id="cadastro2" href="cadastro.html"> Cadastre-se.</a>
