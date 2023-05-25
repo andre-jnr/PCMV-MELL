@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "docxtemplater": "^3.37.4",
-    "jszip": "^3.10.1",
-    "xmldom": "^0.6.0"
-  }
-}

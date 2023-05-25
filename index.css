@@ -2,20 +2,59 @@
 
 #principal{
     max-width: 350px;
-    height: 650px;
+    height: 670px;
     background-color: #000080e6;
     margin: auto;
 }
 
-#pesquisa{
-    display: inline-block;
-    margin-left: 90px;
-    margin-top: 20px;
-    
+.imagem-logo > img{
+   display: inline-block;
+   margin-top: 20px;
+   margin-left: 39px;
+   width: 73px;
+   height: 40px;
 }
+
+.pesquisa{
+    display: inline-block;
+    border-radius: 40px;
+    margin-left: 120px;
+    margin-top: -44px;
+    width: 180px;
+    height: 25px;
+    padding: 10px;
+    background: white;
+}
+
+.input-pesquisa{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#lupa{
+   padding: 8px;
+   background-color: rgb(191, 191, 191);
+   position: relative;
+   border-top-right-radius: 42px;
+   border-bottom-right-radius: 42px;
+   bottom: 29.8px;
+   left: 144px;
+   width: 30px;
+   height: 28.8px;
+
+}
+
+#imagem-lupa > img{
+   position: relative;
+   width: 30px;
+   height: 30px;
+}
+
+
+
 #contrato{
     display: inline-block;
-    padding-top: 50px;
     padding-left: 40px;
     width: 150px;
     height: 180px;
@@ -61,12 +100,17 @@ p{
     height: 150px;
 }
 
+#menu{
+    border-bottom: solid white 1px ;
+    margin-left: 15px;
+    width: 90.5%;
+}
 
 .img-menu{
+    height: 42px;
+    width: 42px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-left: 30.9px;
     margin-top: 60px;
-    padding-left: 29px;
-    height: 50px;
-    width: 50px;
-    margin-right: 35px;
-    margin-bottom: 10px;
 }

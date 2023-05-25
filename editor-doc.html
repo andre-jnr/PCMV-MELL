@@ -25,44 +25,67 @@
   <body>
     <main>
       <div class="container d-flex justify-content-center">
-        <h1>Novo documento</h1>
+        <h1>Novo Documento</h1>
       </div>
       <div class="container d-flex justify-contente-center" id="botoes">
-        <button class="btn btn-sm" id="negrito" onclick="negrito()">
+        <button class="bt-editar" id="negrito" onclick="negrito()">
           <i class="bi bi-type-bold fa-xs"></i>
         </button>
-        <button class="btn btn-sm" id="italico" onclick="italico()">
+        <button class="bt-editar" id="italico" onclick="italico()">
           <i class="bi bi-type-italic fs-xs"></i>
         </button>
-        <button class="btn btn-sm" id="esquerda" onclick="left()">
+        <button class="bt-editar" id="esquerda" onclick="left()">
           <i class="bi bi-text-left fs-xs"></i>
         </button>
-        <button class="btn btn-sm" id="centro" onclick="center()">
+        <button class="bt-editar" id="centro" onclick="center()">
           <i class="bi bi-text-center fs-xs"></i>
         </button>
-        <button class="btn btn-sm" id="direita" onclick="right()">
+        <button class="bt-editar" id="direita" onclick="right()">
           <i class="bi bi-text-right fs-xs"></i>
         </button>
-        <button class="btn btn-sm" id="maiusculo" onclick="maiusculo()">
+        <button class="bt-editar" id="maiusculo" onclick="maiusculo()">
           A
         </button>
-        <button class="btn btn-sm" id="minusculo" onclick="minuscula()">
+        <button class="bt-editar" id="minusculo" onclick="minuscula()">
           a
         </button>
-        <button class="btn btn-sm" id="pri-maiusculo" onclick="capitalizar()">
+        <button class="bt-editar" id="pri-maiusculo" onclick="capitalizar()">
           Aa
         </button>
       </div>
       <!-- editor -->
       <div class="fala" id="editor" contenteditable="true"></div>
       <br />
-      <input type="file" id="file_input" />
-      <br /><br />
+
       <div class="btn" id="funcionalidades">
-        <button id="btn_speech" onclick="checarGravacao()">
+        <button
+          class="bt-audio-salvar"
+          id="btn_speech"
+          onclick="checarGravacao()"
+        >
+          <img
+            class="icone-microfone-salvar"
+            src="imagem/microfone.png"
+            alt=""
+          />
           Transcrever áudio
         </button>
-        <button id="salvar">Salvar</button>
+        <a href="docs/novo-documento.docx" download>
+          <button class="bt-audio-salvar" id="salvar">
+            <img
+              class="icone-microfone-salvar"
+              src="imagem/salvar.png"
+              alt=""
+            />
+            Salvar
+          </button>
+        </a>
+      </div>
+      <div id="voltar">
+        <a href="index.html">
+          <img class="icone-microfone-salvar" src="imagem/home.png" alt="" />
+          Início</a
+        >
       </div>
       <script src="editor-doc.js"></script>
     </main>

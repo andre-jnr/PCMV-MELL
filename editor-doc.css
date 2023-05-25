@@ -11,6 +11,7 @@ body {
 }
 
 main {
+  margin-top: 20px;
   height: 650px;
   width: 350px;
   background-color: #000080e6;
@@ -28,26 +29,75 @@ h1 {
 
 #botoes {
   display: flex;
+  width: 86%;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-  border-color: black;
-  border-style: solid;
+  background-color: white;
+  border: solid white 1px;
   border-radius: 7px;
   margin-bottom: 10px;
 }
 
 #editor {
   height: 550px;
-  width: 250px;
+  width: 300px;
   color: black;
   background-color: #fff;
-  font-size: 8pt;
-  max-height: 794px;
+  font-size: 1em;
   overflow: auto;
   border: 1px solid #ccc;
 }
 
 button {
   margin-left: 2px;
+}
+
+.bt-editar {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+}
+
+.bt-editar:hover {
+  color: rgb(114, 114, 114);
+}
+
+.btn {
+  border: none;
+  padding-bottom: 20px;
+}
+
+.bt-audio-salvar {
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bolder;
+  background-color: white;
+}
+
+.bt-audio-salvar:hover {
+  background-color: rgb(195, 195, 195);
+}
+
+#voltar {
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+#voltar:hover {
+  background-color: rgb(195, 195, 195);
+}
+#voltar > a {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.icone-microfone-salvar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
 }
