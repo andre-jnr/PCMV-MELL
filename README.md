@@ -1,8 +1,12 @@
 # inovatec
 
+O InovaTec é um workshop de inovação tecnológica promovido pela Universidade Metropolitana de Manaus (Fametro). Nele, os cursos de Tecnologia da Informação desenvolvem projetos criativos e práticos, incentivando a colaboração, o aprendizado e a aplicação dos conhecimentos em TI. É uma oportunidade para os estudantes explorarem soluções inovadoras e se manterem atualizados com as tendências tecnológicas, promovendo a criatividade e o espírito empreendedor.
+
 <hr>
 
 # PCMV
+
+Você pode acessar o projeto pelo site: https://andre-jnr.github.io/PCMV-MELL
 
 ## Visão Geral:
 
