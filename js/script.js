@@ -14,14 +14,14 @@ function abrir() {
 
 function showPassword() {
   passwordInput.setAttribute('type', 'text')
-  olho.setAttribute('src', '/imgs/open.png')
-  olho2.setAttribute('src', '/imgs/open.png')
+  olho.setAttribute('src', '../imgs/open.png')
+  olho2.setAttribute('src', '../imgs/open.png')
 }
 
 function hidePassword() {
   passwordInput.setAttribute('type', 'password')
-  olho.setAttribute('src', '/imgs/closed.png')
-  olho2.setAttribute('src', '/imgs/closed.png')
+  olho.setAttribute('src', '../imgs/closed.png')
+  olho2.setAttribute('src', '../imgs/closed.png')
 }
 
 function logar() {
@@ -29,7 +29,7 @@ function logar() {
   var senha = document.getElementById('senha').value
 
   if (usuario == 'inovatec' && senha == '123456') {
-    location.href = '/index.html'
+    location.href = '../index.html'
     alert('Bem vindo')
   } else {
     alert('Usuário ou senha inválidos!!!')
